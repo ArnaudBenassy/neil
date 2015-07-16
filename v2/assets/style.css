@@ -1,0 +1,60 @@
+nav#main-nav {
+  background-color: #333;
+  color: #eeeeee;
+  border-radius: 0;
+  border: 0;
+  box-shadow: 0 0 8px #333333;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+nav#main-nav .container {
+  position: relative;
+}
+nav#main-nav .nav.navbar-nav li a:hover {
+  color: white;
+}
+nav#main-nav p.with-background {
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  background-color: rgba(120, 120, 120, 0.8);
+  border-radius: 0 0 4px 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+nav#main-nav .navbar-brand {
+  color: #eeeeee;
+}
+nav#main-nav .navbar-brand img {
+  margin-top: -15px;
+  display: inline-block;
+}
+.type-container {
+  border-width: 3px;
+  border-color: #333333;
+}
+.type-container#cloison {
+  border-color: #0d4deb;
+}
+.type-container#peinture {
+  border-color: #f9650b;
+}
+.type-container#revetement {
+  border-color: #ffc704;
+}
+.type-container#facade {
+  border-color: #d81010;
+}
+#main-content {
+  background: url(images/bg.jpg) no-repeat center;
+}
+.slick-slide {
+  margin: 10px;
+  border: 5px solid white;
+  box-shadow: 1px 1px 5px #333333;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #333;
+}
