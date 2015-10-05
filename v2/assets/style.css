@@ -58,3 +58,7 @@ nav#main-nav .navbar-brand img {
 .slick-next:before {
   color: #333;
 }
+.slider-loader {
+  margin: 10px auto;
+  display: block;
+}
